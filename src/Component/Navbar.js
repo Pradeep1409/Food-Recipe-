@@ -80,6 +80,7 @@ export default function Navbar() {
                 </Button>
 
                 <Button className="btnRes">
+                <Link to="https://www.themealdb.com/api.php" target={"_blank"}>Api Guide</Link>
                 <Link to="/guide">Api Guide</Link>
                 </Button>
 
