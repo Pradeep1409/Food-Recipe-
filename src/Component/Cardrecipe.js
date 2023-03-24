@@ -5,7 +5,7 @@ import { Stack } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
 const Cardrecipe = props => {
-  const [item, setitem] = useState();
+  const [item, setitem] = useState([]);
   const { Mealid } = useParams();
   const Getserch = async () => {
     // e.preventDefault();
